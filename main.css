@@ -1,0 +1,133 @@
+body {
+    /*background: url(images/bc.jpg);*/
+   }
+
+.table {
+    background-color: #ffffff;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    width: 255px;
+    height: 255px;
+    table-layout:fixed;
+    white-space: nowrap;
+}
+.winnerX {
+    font-size: 26px;
+    color: green;
+}
+.winnerO {
+    font-size: 26px;
+    color: orangered;
+}
+.winnerXO{
+    font-size: 26px;
+    color: mediumpurple;
+}
+.btn {
+    margin-top: 20px;
+    font-size:  30px;
+background-color: mediumpurple;
+    color: #ffffff;
+}
+.cross {
+    background: url("images/xx.png") no-repeat;
+
+}
+.zero{
+    background: url("images/oo.png") no-repeat;
+}
+
+.line_g1 {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 43%;
+    margin-right: 57%;
+    border-style:solid;
+    border-color:#0000FF;
+    width: 245px;
+    height: 0;
+}
+.line_g2 {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 43%;
+    margin-right: 57%;
+    border-style:solid;
+    border-color:#0000FF;
+    width: 245px;
+    height: 0;
+}
+.line_g3 {
+    position: absolute;
+    margin-top: 224px;
+    margin-left: 43%;
+    margin-right: 57%;
+    border-style:solid;
+    border-color:#0000FF;
+    width: 245px;
+    height: 0;
+}
+.line_v1 {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 45%;
+    margin-right: 55%;
+    border-style: solid;
+    /*border-color: #0000FF;*/
+    border-color: brown;
+    height: 250px;
+    width: 0px;
+}
+.line_v2 {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 49%;
+    margin-right: 51%;
+    border-style: solid;
+    /*border-color: #0000FF;*/
+    border-color: brown;
+    height: 250px;
+    width: 0px;
+}
+.line_v3 {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 54%;
+    margin-right: 46%;
+    border-style: solid;
+    /*border-color: #0000FF;*/
+    border-color: brown;
+    height: 250px;
+    width: 0px;
+}
+.line_dr {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 40%;
+    margin-right: 60%;
+    /*border: 3px solid #0000FF;*/
+    border: 3px solid #01DF3A;
+    width: 350px;
+    height: 0px;
+    webkit-transform: rotate(-45deg); /* Для Safari, Chrome, iOS */
+    transform: rotate(-45deg);
+}
+.line_dl {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 40%;
+    margin-right: 60%;
+    /*border: 3px solid #0000FF;*/
+    border: 3px solid #01DF3A;
+    width: 350px;
+    height: 0px;
+    webkit-transform: rotate(45deg); /* Для Safari, Chrome, iOS */
+    transform: rotate(45deg);
+}
+.elements {
+    display: inline-flex;
+}
+.square {
+    width: 85px;
+    height: 85px;
+}
