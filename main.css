@@ -1,7 +1,3 @@
-body {
-    /*background: url(images/bc.jpg);*/
-   }
-
 .table {
     background-color: #ffffff;
     margin-top: 100px;
@@ -73,8 +69,7 @@ background-color: mediumpurple;
     margin-left: 45%;
     margin-right: 55%;
     border-style: solid;
-    /*border-color: #0000FF;*/
-    border-color: brown;
+    border-color: #0000FF;
     height: 250px;
     width: 0px;
 }
@@ -84,8 +79,7 @@ background-color: mediumpurple;
     margin-left: 49%;
     margin-right: 51%;
     border-style: solid;
-    /*border-color: #0000FF;*/
-    border-color: brown;
+    border-color: #0000FF;
     height: 250px;
     width: 0px;
 }
@@ -95,8 +89,7 @@ background-color: mediumpurple;
     margin-left: 54%;
     margin-right: 46%;
     border-style: solid;
-    /*border-color: #0000FF;*/
-    border-color: brown;
+    border-color: #0000FF;
     height: 250px;
     width: 0px;
 }
@@ -105,8 +98,7 @@ background-color: mediumpurple;
     margin-top: 130px;
     margin-left: 40%;
     margin-right: 60%;
-    /*border: 3px solid #0000FF;*/
-    border: 3px solid #01DF3A;
+    border: 3px solid #0000FF;
     width: 350px;
     height: 0px;
     webkit-transform: rotate(-45deg); /* Для Safari, Chrome, iOS */
@@ -117,8 +109,7 @@ background-color: mediumpurple;
     margin-top: 130px;
     margin-left: 40%;
     margin-right: 60%;
-    /*border: 3px solid #0000FF;*/
-    border: 3px solid #01DF3A;
+    border: 3px solid #0000FF;
     width: 350px;
     height: 0px;
     webkit-transform: rotate(45deg); /* Для Safari, Chrome, iOS */
