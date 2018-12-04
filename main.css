@@ -31,13 +31,17 @@ background-color: mediumpurple;
 }
 .cross {
     background: url("images/xx.png") no-repeat;
-
 }
 .zero{
     background: url("images/oo.png") no-repeat;
 }
-
-.line_g1 {
+.hidden {
+    display: none;
+}
+.visible {
+    display: block;
+}
+#line_g1 {
     position: absolute;
     margin-top: 45px;
     margin-left: 43%;
@@ -47,7 +51,7 @@ background-color: mediumpurple;
     width: 245px;
     height: 0;
 }
-.line_g2 {
+#line_g2 {
     position: absolute;
     margin-top: 130px;
     margin-left: 43%;
@@ -57,7 +61,7 @@ background-color: mediumpurple;
     width: 245px;
     height: 0;
 }
-.line_g3 {
+#line_g3 {
     position: absolute;
     margin-top: 224px;
     margin-left: 43%;
@@ -67,7 +71,7 @@ background-color: mediumpurple;
     width: 245px;
     height: 0;
 }
-.line_v1 {
+#line_v1 {
     position: absolute;
     margin-top: 7px;
     margin-left: 45%;
@@ -78,7 +82,7 @@ background-color: mediumpurple;
     height: 250px;
     width: 0px;
 }
-.line_v2 {
+#line_v2 {
     position: absolute;
     margin-top: 7px;
     margin-left: 49%;
@@ -89,7 +93,7 @@ background-color: mediumpurple;
     height: 250px;
     width: 0px;
 }
-.line_v3 {
+#line_v3 {
     position: absolute;
     margin-top: 7px;
     margin-left: 54%;
@@ -100,7 +104,7 @@ background-color: mediumpurple;
     height: 250px;
     width: 0px;
 }
-.line_dr {
+#line_dr {
     position: absolute;
     margin-top: 130px;
     margin-left: 40%;
@@ -112,7 +116,7 @@ background-color: mediumpurple;
     webkit-transform: rotate(-45deg); /* Для Safari, Chrome, iOS */
     transform: rotate(-45deg);
 }
-.line_dl {
+#line_dl {
     position: absolute;
     margin-top: 130px;
     margin-left: 40%;
