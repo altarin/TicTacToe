@@ -1,10 +1,6 @@
-body {
-    /*background: url(images/bc.jpg);*/
-   }
-
 .gameField {
     background-color: #ffffff;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 20px;
     width: 255px;
     height: 255px;
@@ -16,11 +12,28 @@ body {
     margin-top: 20px;
     font-size:  30px;
 }
+.field .btn-primary {
+    background-color: #9F81F7;
+    border-color: #9F81F7;
+}
+.field .btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #9F81F7;
+    border-color: #9F81F7;
+}
+
+.field .btn-primary:hover {
+    background-color: #9F81F7;
+    border-color: #9F81F7;
+}
+.field .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(159,129,247,.5) ;
+}
+
 .cross {
-    background: url("images/xx.png") no-repeat;
+    background: url("images/xx.png") no-repeat center;
 }
 .zero{
-    background: url("images/oo.png") no-repeat;
+    background: url("images/oo.png") no-repeat center;
 }
 .hidden {
     display: none;
@@ -28,63 +41,63 @@ body {
 .visible {
     display: block;
 }
+.v1 {
+    text-align: center;
+}
+
+
 #line_g1 {
-    position: absolute;
-    margin-top: 45px;
-    margin-left: 43%;
-    margin-right: 57%;
+    position: relative;
+    top: 96px;
     border-style:solid;
-    border: 3px solid #01DF3A;
-    width: 245px;
+    border: 4px solid #01DF3A;
+    min-width: 245px;
+    max-width: 245px;
     height: 0;
 }
 #line_g2 {
-    position: absolute;
-    margin-top: 130px;
-    margin-left: 43%;
-    margin-right: 57%;
+    position: relative;
+    top: 182px;
     border-style:solid;
-    border: 3px solid #01DF3A;
+    border: 4px solid #01DF3A;
     width: 245px;
     height: 0;
 }
 #line_g3 {
-    position: absolute;
-    margin-top: 224px;
-    margin-left: 43%;
-    margin-right: 57%;
+    position: relative;
+    top: 266px;
     border-style:solid;
-    border: 3px solid #01DF3A;
+    border: 4px solid #01DF3A;
     width: 245px;
     height: 0;
 }
 #line_v1 {
     position: absolute;
-    margin-top: 7px;
-    margin-left: 45%;
-    margin-right: 55%;
+    top: 53px;
+    /*left: 37%;*/
+    /*margin-right: 55%;*/
     border-style: solid;
-    border: 3px solid #01DF3A;
+    border: 4px solid #01DF3A;
     height: 250px;
     width: 0px;
 }
 #line_v2 {
     position: absolute;
-    margin-top: 7px;
-    margin-left: 49%;
-    margin-right: 51%;
+    top: 53px;
+    left: 50%;
+    /*margin-right: 51%;*/
     border-style: solid;
-    border: 3px solid #01DF3A;
+    border: 4px solid #01DF3A;
     height: 250px;
     width: 0px;
 }
 #line_v3 {
     position: absolute;
-    margin-top: 7px;
-    margin-left: 54%;
-    margin-right: 46%;
+    top: 53px;
+    left: 65%;
+    /*margin-right: 46%;*/
     border-style: solid;
-    border: 3px solid #01DF3A;
+    border: 4px solid #01DF3A;
     height: 250px;
     width: 0px;
 }
@@ -93,7 +106,7 @@ body {
     margin-top: 130px;
     margin-left: 40%;
     margin-right: 60%;
-    border: 3px solid #01DF3A;
+    border: 4px solid #01DF3A;
     width: 350px;
     height: 0px;
     webkit-transform: rotate(-45deg); /* Для Safari, Chrome, iOS */
@@ -104,7 +117,7 @@ body {
     margin-top: 130px;
     margin-left: 40%;
     margin-right: 60%;
-    border: 3px solid #01DF3A;
+    border: 4px solid #01DF3A;
     width: 350px;
     height: 0px;
     webkit-transform: rotate(45deg); /* Для Safari, Chrome, iOS */
