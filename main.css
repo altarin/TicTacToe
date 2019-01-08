@@ -11,8 +11,7 @@ body {
     table-layout:fixed;
     white-space: nowrap;
 }
-
-#butNewGame {
+.btn {
     margin-top: 20px;
     font-size:  30px;
 }
