@@ -1,6 +1,6 @@
 .gameField {
     background-color: #ffffff;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 20px;
     width: 255px;
     height: 255px;
@@ -41,11 +41,6 @@
 .visible {
     display: block;
 }
-.v1 {
-    text-align: center;
-}
-
-
 #line_g1 {
     position: relative;
     top: 96px;
