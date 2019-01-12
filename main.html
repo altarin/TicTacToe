@@ -9,14 +9,16 @@
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>Крестики-нолики</title>
     <style>
-        body{ background: #E3CEF6;}
+        body {
+            background: #E3CEF6;
+        }
     </style>
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
-
-    <div class="field" align="center" >
-        <table border="1" cellspacing="0" class="gameField">
+<div class="container">
+    <div class="row">
+        <div class="field">
             <div id="line_g1" class="hidden"></div>
             <div id="line_g2" class="hidden"></div>
             <div id="line_g3" class="hidden"></div>
@@ -27,44 +29,43 @@
 
             <div id="line_dl" class="hidden"></div>
             <div id="line_dr" class="hidden"></div>
-
-            <tr class="y1">
-                <td id="s1" class="square"></td>
-                <td id="s2" class="square"></td>
-                <td id="s3" class="square"></td>
-            </tr>
-
-            <tr class="y2">
-                <td id="s4" class="square"></td>
-                <td id="s5" class="square"></td>
-                <td id="s6" class="square"></td>
-            </tr>
-
-            <tr class="y3">
-                <td id="s7" class="square"></td>
-                <td id="s8" class="square"></td>
-                <td id="s9" class="square"></td>
-            </tr>
-
-        </table>
-
-        <button type="button" class="btn btn-primary" name="new_game" id="butNewGame">Новая игра</button>
+            <table class="table table-bordered gameField">
+                <tbody>
+                <tr>
+                    <td id="s1" class="square"></td>
+                    <td id="s2" class="square"></td>
+                    <td id="s3" class="square"></td>
+                </tr>
+                <tr>
+                    <td id="s4" class="square"></td>
+                    <td id="s5" class="square"></td>
+                    <td id="s6" class="square"></td>
+                </tr>
+                <tr>
+                    <td id="s7" class="square"></td>
+                    <td id="s8" class="square"></td>
+                    <td id="s9" class="square"></td>
+                </tr>
+                </tbody>
+            </table>
+            <button type="button" class="btn btn-primary btn-lg" name="new_game" id="butNewGame">Новая игра</button>
+        </div>
     </div>
+</div>
 
-    <div class="elements">
-    </div>
+</div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
-    <script src="main.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+<script src="main.js"></script>
 
 </body>
 </html>
