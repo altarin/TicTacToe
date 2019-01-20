@@ -1,25 +1,38 @@
-body {
-    /*background: url(images/bc.jpg);*/
-   }
-
-.gameField {
+.row .field .gameField {
     background-color: #ffffff;
-    margin-top: 100px;
-    margin-bottom: 20px;
-    width: 255px;
-    height: 255px;
-    table-layout:fixed;
-    white-space: nowrap;
+    margin: auto;
+    width: 540px;
+    height: 540px;
 }
-.btn {
+.container {
+    margin-top: 20px;
+}
+#butNewGame {
     margin-top: 20px;
     font-size:  30px;
 }
+.field .btn-primary {
+    background-color: #9F81F7;
+    border-color: #9F81F7;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.field .btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #9F81F7;
+    border-color: #9F81F7;
+}
+.field .btn-primary:hover {
+    background-color: #9F81F7;
+    border-color: #9F81F7;
+}
+.field .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(159,129,247,.5);
+}
 .cross {
-    background: url("images/xx.png") no-repeat;
+    background: url("images/xx.png") no-repeat center;
 }
 .zero{
-    background: url("images/oo.png") no-repeat;
+    background: url("images/oo.png") no-repeat center;
 }
 .hidden {
     display: none;
@@ -27,92 +40,80 @@ body {
 .visible {
     display: block;
 }
+
+.row .field {
+    margin: auto;
+}
+
 #line_g1 {
-    position: absolute;
-    margin-top: 45px;
-    margin-left: 43%;
-    margin-right: 57%;
+    position: relative;
+    top: 96px;
     border-style:solid;
-    border: 3px solid #01DF3A;
-    width: 245px;
+    border: 4px solid #01DF3A;
+    width: 540px;
     height: 0;
 }
 #line_g2 {
-    position: absolute;
-    margin-top: 130px;
-    margin-left: 43%;
-    margin-right: 57%;
+    position: relative;
+    top: 276px;
     border-style:solid;
-    border: 3px solid #01DF3A;
-    width: 245px;
+    border: 4px solid #01DF3A;
+    width: 540px;
     height: 0;
 }
 #line_g3 {
-    position: absolute;
-    margin-top: 224px;
-    margin-left: 43%;
-    margin-right: 57%;
+    position: relative;
+    top: 456px;
     border-style:solid;
-    border: 3px solid #01DF3A;
-    width: 245px;
+    border: 4px solid #01DF3A;
+    width: 540px;
     height: 0;
 }
 #line_v1 {
     position: absolute;
-    margin-top: 7px;
-    margin-left: 45%;
-    margin-right: 55%;
+    top: 20px;
+    margin-left: 87px;
     border-style: solid;
-    border: 3px solid #01DF3A;
-    height: 250px;
+    border: 4px solid #01DF3A;
+    height: 540px;
     width: 0px;
 }
 #line_v2 {
     position: absolute;
-    margin-top: 7px;
-    margin-left: 49%;
-    margin-right: 51%;
+    top: 20px;
+    margin-left: 267px;
     border-style: solid;
-    border: 3px solid #01DF3A;
-    height: 250px;
+    border: 4px solid #01DF3A;
+    height: 540px;
     width: 0px;
 }
 #line_v3 {
     position: absolute;
-    margin-top: 7px;
-    margin-left: 54%;
-    margin-right: 46%;
+    top: 20px;
+    margin-left: 446px;
     border-style: solid;
-    border: 3px solid #01DF3A;
-    height: 250px;
+    border: 4px solid #01DF3A;
+    height: 540px;
     width: 0px;
 }
 #line_dr {
     position: absolute;
-    margin-top: 130px;
-    margin-left: 40%;
-    margin-right: 60%;
-    border: 3px solid #01DF3A;
-    width: 350px;
+    margin-top: 266px;
+    margin-left: -107px;
+    border: 4px solid #01DF3A;
+    width: 754px;
     height: 0px;
-    webkit-transform: rotate(-45deg); /* Для Safari, Chrome, iOS */
+    webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
 #line_dl {
     position: absolute;
-    margin-top: 130px;
-    margin-left: 40%;
-    margin-right: 60%;
-    border: 3px solid #01DF3A;
-    width: 350px;
+    margin-top: 266px;
+    margin-left: -105px;
+    border: 4px solid #01DF3A;
+    width: 754px;
     height: 0px;
-    webkit-transform: rotate(45deg); /* Для Safari, Chrome, iOS */
+    webkit-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-.elements {
-    display: inline-flex;
-}
-.square {
-    width: 85px;
-    height: 85px;
-}
+
